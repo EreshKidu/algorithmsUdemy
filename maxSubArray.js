@@ -71,8 +71,7 @@ const maxSubArray2 = nums => {
                 currentSum = nums[i+1];
                 console.log ('break');
                 continue;
-                // i = j;
-                // break;
+
             }
             currentSum += nums[i+1];
        
